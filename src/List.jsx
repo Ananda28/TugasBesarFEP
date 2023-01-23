@@ -63,7 +63,7 @@ export const List = () => {
         </div>
         {/* Search */}
         {/* dropdown */}
-        <select onChange={handleChange} className='btn btn-secondary dropdown-toggle w-100'  id="heroes" name="heroes">
+        <select onChange={handleChange} className='btn btn-danger dropdown-toggle w-100'  id="heroes" name="heroes">
           <option selected disabled value="">Show All Pahlawan ...</option>
           {pahlawan?.map((pahlawan, index) => (
             <option value={index}>{pahlawan.name}</option>
