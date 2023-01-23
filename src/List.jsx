@@ -74,23 +74,23 @@ export const List = () => {
           <table className="table table-hover">
             <thead>
               <tr>
-                <td>
-                  No
+               <td className='table-danger'>
+                  <b>No</b>
                 </td>
-                <td>
-                  Name
+                <td className='table-danger'>
+                  <b>Name</b> 
                 </td>
-                <td>
-                  Birth Year
+                <td className='table-danger'>
+                  <b>Birth Year</b>
                 </td>
-                <td>
-                  Death Year
+                <td className='table-danger'>
+                  <b>Death Year</b>
                 </td>
-                <td>
-                  Ascension Year
+                <td className='table-danger'>
+                  <b>Ascension Year</b>
                 </td>
-                <td>
-                  Description
+                <td className='table-danger'>
+                  <b>Description</b>
                 </td>
               </tr>
             </thead>
@@ -98,7 +98,7 @@ export const List = () => {
               {!selectedOption && filteredData?.map((pahlawan, index) => (
               <tr key={ index }>
                 <td>{index + 1}</td>
-                <td className='table-dark'>{ pahlawan.name }</td>
+                <td className='table-primary'>{ pahlawan.name }</td>
                 <td>{ pahlawan.birth_year }</td>
                 <td>{ pahlawan.death_year }</td>
                 <td>{ pahlawan.ascension_year }</td>
@@ -124,9 +124,6 @@ export const List = () => {
             </tbody>
           </table>
         </div>
-        {/* <div className="mt-3 text-primary" id="loadingBar">
-          <div className="spinner-border spinner-border-sm" /> loading
-        </div> */}
       </div>
       <br />
       <div className="container-fluid py-2 border-top">
