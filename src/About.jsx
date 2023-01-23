@@ -29,7 +29,7 @@ export const About = () => {
         <Link to='/'>
             Kembali  
         </Link>
-      </button>
+     </button>
   </div>
   )
 }
