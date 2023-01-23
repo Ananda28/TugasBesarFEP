@@ -19,11 +19,16 @@ export const About = () => {
             Using Framework With React JS and Bootstrap 4
           </li>
         <div className="my-3">
-          You can download this project  <a target="_blank" href="https://github.com/narantyomaulana/tubes-frontend-narantyo">here</a>
+          You can download this project  <a target="_blank" href="https://github.com/Ananda28/TugasBesarFEP">here</a>
         </div>
         Thanks!
       </div>
     </div>
+    <button className='btn btn-info'>
+        <Link to='/'>
+            Kembali  
+        </Link>
+      </button>
   </div>
   )
 }
